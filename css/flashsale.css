@@ -1,0 +1,19 @@
+.flash-sale {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    margin: 2rem 0;
+}
+
+#timer {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Author : Idin Iskandar
+Template : Landing page phone store 
+created at : 07 Mei 2024 */
+
+#timer span {
+    margin: 0 0.5rem;
+}

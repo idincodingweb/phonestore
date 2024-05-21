@@ -1,0 +1,331 @@
+<!-- Author : Idin Iskandar
+Template : Landing page phone store 
+created at : 07 Mei 2024
+ -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Lingkungan CSS coeg -->
+    <link rel="stylesheet" href="css/flashsale.css" title="" type="" />
+    <link rel="stylesheet" href="css/hero.css" title="" type="" />
+    <link rel="stylesheet" href="#" title="" type="" />
+    <link rel="stylesheet" href="css/ulasan.css" title="" type="" />
+    <link rel="stylesheet" href="css/kategori.css" title="" type="" />
+    <link rel="stylesheet" href="css/header.css" title="" type="" />
+    <link rel="stylesheet" href="css/navbar.css" title="" type="" />
+    <link rel="stylesheet" href="css/chatsupport.css" title="" type="" />
+    <link rel="stylesheet" href="css/body.css" title="" type="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" title="" type="" />
+        
+    <title> IdinCode | PS </title>
+</head>
+<body>
+  <!-- start navbar disini coeg -->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#hero">PS IDIN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produk">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tentang">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+<header>
+    <div class="hero">
+        <!-- untuk gambar -->
+        <img src="img/heroe.jpg" alt="Smartphone Terbaru" class="hero-image">
+
+        <!-- untuk video -->
+
+        <video class="hero-video" id="products" autoplay muted loop>
+         <source src="video/iPhone15.mp4" type="video/mp4">
+          Browser Anda tidak mendukung tag video ini.
+       </video>
+
+
+        <div class="hero-text">
+            <h1 class="fw-bold">Web Desain By Idin Code</h1>
+            <h1>Temukan Smartphone Impian Anda</h1>
+            <p>Penawaran eksklusif dan teknologi terkini hanya untuk Anda.</p>
+            <a href="#" class="hero-btn">Belanja Sekarang</a>
+        </div>
+    </div>
+</header>
+
+
+   <!-- Katalog Produk -->
+<section class="product-categories mt-5" id="produk">
+  <div class="container-fluid">
+    <h2 class="mb-4 font-weight-bold">Kategori Produk</h2>
+    <!-- Filter Buttons -->
+    <div class="button-group filters-button-group mb-4">
+      <button class="btn btn-outline-secondary is-checked" data-filter="*">Semua</button>
+      <button class="btn btn-outline-secondary" data-filter=".kategori1">Iphone</button>
+      <button class="btn btn-outline-secondary" data-filter=".kategori2">Samsung</button>
+      <button class="btn btn-outline-secondary" data-filter=".kategori3">Realme</button>
+    </div>
+    
+    
+    <!-- Grid Kategori Produk -->
+    <div class="row grid">
+      <!-- Item Kategori 1 -->
+      <div class="col-md-4 grid-item kategori1 mb-4">
+        <div class="card">
+          <img src="img/iphone2.jpg" class="card-img-top" alt="Sepatu Lari">
+          <div class="card-body">
+            <h5 class="card-title">Iphone 15</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item Kategori 2 -->
+      <div class="col-md-4 grid-item kategori2 mb-4">
+        <div class="card">
+          <img src="img/samsung1.png" class="card-img-top" alt="Baju Renang">
+          <div class="card-body">
+            <h5 class="card-title">Samsung A35 5G</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+
+<!-- Item Kategori 3 -->
+<div class="col-md-4 grid-item kategori3 mb-4">
+  <div class="card">
+    <img src="img/realme2.png" class="card-img-top" alt="Realme 65 5G">
+    <div class="card-body">
+      <h5 class="card-title">Realme 65 5G</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    </div>
+  </div>
+</div>
+
+      <!-- Tambahkan lebih banyak item kategori produk sesuai kebutuhan -->
+      
+    </div>
+  </div>
+</section>
+
+    <!-- Ulasan dan Rating Pelanggan -->
+<section class="customer-reviews">
+    <h2>Ulasan Pelanggan</h2>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        <!-- Tambahkan lebih banyak indikator sesuai dengan jumlah slide -->
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/pemilik2.png" width="150" alt="Slide 1">
+            <div class="carousel-caption">
+                <h3>Iphone 15</h3>
+                <p>Iphone 15 harga murah banyak diskon dan bonus.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/pemilik1.png" width="150" alt="Slide 2">
+            <div class="carousel-caption">
+                <h3>Realme C65</h3>
+                <p>Realme terbaru ini sangat bagus sekali fiturnya dan bisa saya dapatkan dengn harga murah disini.</p>
+            </div>
+        </div>
+        <!-- Tambahkan lebih banyak slide sesuai dengan kebutuhan -->
+    </div>
+
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+        <!-- Tambahkan ulasan lain sesuai kebutuhan -->
+</section>
+
+
+    <!-- Penawaran Terbatas dan Flash Sale -->
+<div class="flash-sale">
+    <h2>Flash Sale Berakhir Dalam:</h2>
+    <div id="timer">
+        <span id="days"></span> Hari
+        <span id="hours"></span> Jam
+        <span id="minutes"></span> Menit
+        <span id="seconds"></span> Detik
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light" id="tentang">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block font-weight-bold">
+      <span>Terhubung dengan kami di media sosial:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section id="">
+    <div class="container-fluid text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>PT. Idin Coding
+          </h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, sequi.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produk
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pakaian</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Celana</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Aksesoris</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Sepatu</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Tautan Berguna
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Kontak
+          </h6>
+          <p><i class="fas fa-home me-3"></i> 41372, Karawang, Indonesia</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            idinspea1@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +6287853779661</p>
+          <p><i class="fas fa-print me-3"></i> +6289572716652</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <!-- Section: Text -->
+  <section class="p-4 pt-0">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <p>
+          Hak cipta © 2024 PT. Idin Coding. Semua hak dilindungi undang-undang.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Text -->
+</footer>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000b76" fill-opacity="1" d="M0,96L30,106.7C60,117,120,139,180,144C240,149,300,139,360,160C420,181,480,235,540,213.3C600,192,660,96,720,85.3C780,75,840,149,900,170.7C960,192,1020,160,1080,138.7C1140,117,1200,107,1260,101.3C1320,96,1380,96,1410,96L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+
+    <!-- Responsif dan Mobile-Friendly -->
+    <!-- Pastikan seluruh situs responsif -->
+    
+    
+<!-- javascript dibawh ini -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<!-- <script src="javascript/navbar.js" ></script> -->
+<script src="javascript/kategori.js"></script>
+<script src="javascript/hero.js"></script>
+<script src="javascript/search.js"></script>
+<script src="javascript/chatsupport.js"></script>
+<script src="javascript/ulasan.js"></script>
+<script src="javascript/flshsale.js"></script>
+
+</body>
+</html>

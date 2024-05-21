@@ -1,0 +1,41 @@
+.customer-reviews {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    text-align: center;
+}
+
+.reviews-container {
+    margin-top: 1rem;
+}
+
+.review {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.rating {
+    color: #ffc107; /* Warna bintang */
+    font-size: 1.5rem;
+}
+
+.star {
+    cursor: pointer;
+}
+
+/* Author : Idin Iskandar
+Template : Landing page phone store 
+created at : 07 Mei 2024 */
+
+.review-text {
+    font-style: italic;
+    color: #333;
+}
+
+.reviewer {
+    font-weight: bold;
+    color: #666;
+    margin-top: 0.5rem;
+}
