@@ -21,4 +21,6 @@ Untuk pembaruan lebih lanjut dan untuk melihat apa yang saya kerjakan:
 - Blog: idincoding.com
 - Blog : https://www.laranode.site
 
-Terima kasih telah berkunjung, dan semoga Anda menikmati proyek saya!
+Terima kasih telah berkunjung, dan semoga Anda menikmati proyek saya! 
+
+live demo template : https://idincodingweb.github.io/shopcuy/
