@@ -23,4 +23,4 @@ Untuk pembaruan lebih lanjut dan untuk melihat apa yang saya kerjakan:
 
 Terima kasih telah berkunjung, dan semoga Anda menikmati proyek saya! 
 
-live demo template : https://idincodingweb.github.io/shopcuy/
+live demo template : https://idincodingweb.github.io/phonestore/
